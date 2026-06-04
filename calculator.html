@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator script</title>
+    <style>
+      body {
+        background-image: url("calculator.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      p {
+        color: rgb(255, 242, 1);
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      def addition(): <br />
+      number_1 = int(input("First number : ")) <br />
+      number_2 = int(input("Second number : ")) <br />
+      calcul = int(number_1) + int(number_2) <br />
+      print(calcul) <br />
+      <br />
+      def subtraction(): <br />
+      number_1 = int(input("First number : ")) <br />
+      number_2 = int(input("Second number : ")) <br />
+      calcul = int(number_1) - int(number_2) <br />
+      print(calcul) <br />
+      <br />
+      def multiplication(): <br />
+      number_1 = int(input("First number : ")) <br />
+      number_2 = int(input("Second number : ")) <br />
+      calcul = int(number_1) * int(number_2) <br />
+      print(calcul) <br />
+      <br />
+      def division(): <br />
+      number_1 = int(input("First number : ")) <br />
+      number_2 = int(input("Second number : ")) <br />
+      calcul = int(number_1) / int(number_2) <br />
+      print(calcul) <br />
+      <br />
+      print("This is a calculator .") <br />
+      print("If you want to add numbers , write a .") <br />
+      print("If you want to subtract numbers , write b .") <br />
+      print("If you want to multiplicat numbers , write c .") <br />
+      print("If you want to divise numbers , write d .") <br />
+      <br />
+      choice = input("Your choice : ") <br />
+      <br />
+      if choice == "a": <br />
+      print(addition()) <br />
+      elif choice == "b": <br />
+      print(subtraction()) <br />
+      elif choice == "c": <br />
+      print(multiplication()) <br />
+      elif choice == "d": <br />
+      print(division()) <br />
+      else: <br />
+      print("Please try one of the choices up ! ") <br />
+      <br />
+    </p>
+  </body>
+</html>
